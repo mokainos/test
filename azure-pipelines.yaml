@@ -7,6 +7,9 @@ pr:
 stages:
   - stage: first
     jobs:
-      - job: s1f1
+
+
+      - job: s1frrxz
+
         steps:
           - bash: echo "s1f1job"

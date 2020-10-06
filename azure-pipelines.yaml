@@ -1,1 +1,12 @@
+trigger: none
+pr:
+  branches:
+    include:
+      - master
 
+stages:
+  - stage: first
+    jobs:
+      - job: s1f1
+        steps:
+          - bash: echo "s1f1job"

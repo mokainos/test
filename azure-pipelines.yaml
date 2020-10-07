@@ -10,4 +10,4 @@ stages:
     jobs:
       - job: s1frrxz
         steps:
-          - bash: echo "s1f1job"
+          - bash: echo "s1f1djob"
